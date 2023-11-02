@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper_red{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    background-color: red;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.wrapper_blue{
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    background-color: blue;
+    position: relative;
+    left: 200px;
+    top: -50px;
+}
+.wrapper_green{
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    background-color: green;
+    position: relative;
+    left: 150px;
+    top: -307px;
+    
+}
+.wrapper_green:hover{
+    transform:rotate(-45deg);
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    transition: 3s;
+
+}
